@@ -109,7 +109,7 @@ function App() {
             <div className="portraitWrap">
               <img
                 className="portrait"
-                src="/joel-headshot.jpg"
+                src={`${import.meta.env.BASE_URL}joel-headshot.jpg`}
                 alt="Professional portrait of Joel Kurien Thomas"
               />
             </div>
