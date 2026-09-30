@@ -87,6 +87,10 @@ img {
 }
 
 .hero {
+  min-height: calc(100vh - 70px);
+  min-height: calc(100svh - 70px);
+  display: flex;
+  align-items: center;
   padding: 86px 0 72px;
 }
 
