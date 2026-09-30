@@ -26,19 +26,19 @@ const projects = [
 
 const journey = [
   {
-    title: 'BCA Graduate',
-    meta: '2022 — 2026',
-    text: 'Completed my Bachelor of Computer Applications with a foundation in programming, systems thinking, and applied technology.',
-  },
-  {
     title: 'Data Science Internship',
-    meta: 'Current focus',
-    text: 'Building practical experience in Python, data analysis, AI concepts, and the application of technical skills to real projects.',
+    meta: '2026 · Current',
+    text: 'Building practical experience in data analysis, machine learning, Python, SQL, and real-world problem solving.',
   },
   {
-    title: 'Independent Learning & Projects',
-    meta: 'Ongoing',
-    text: 'Continuously exploring AI, machine learning, data workflows, and software development through project-based learning.',
+    title: 'Bachelor of Computer Applications',
+    meta: '2023 — 2026',
+    text: 'Completed a BCA with foundations across programming, software development, databases, and applied technology projects.',
+  },
+  {
+    title: 'MERN Stack Internship',
+    meta: '2025',
+    text: 'Hands-on exposure to MongoDB, Express.js, React.js, and Node.js through full-stack application development.',
   },
 ];
 
@@ -100,8 +100,8 @@ function App() {
                   <span>AI & development</span>
                 </div>
                 <div>
-                  <b>Data</b>
-                  <span>Current direction</span>
+                  <b>Data Science</b>
+                  <span>Intern · Current</span>
                 </div>
               </div>
             </div>
@@ -205,7 +205,7 @@ function App() {
           <div className="container">
             <div className="head">
               <div className="kicker">Journey</div>
-              <h2>How I’m growing.</h2>
+              <h2>Learning through experience.</h2>
             </div>
 
             <div className="journey">
